@@ -1,0 +1,16 @@
+export { default as BackAndNextBtn } from "../Components/BackAndNextBtn/BackAndNextBtn";
+export { default as BlackScreen } from "../Components/BlackScreen/BlackScreen";
+export { default as DetailFillingSidebar } from "../Components/DetailEntrySidebar/DetailEntrySidebar";
+export { default as EducationComponent } from "../Components/Education/Education";
+export { default as TemplateHeader } from "../Components/Header/TemplateHeader";
+export { default as TemplateHeading } from "../Components/Heading/TemplateHeading";
+export { default as InputComponent } from "../Components/Input/Input";
+export { default as KeySkillsComponent } from "../Components/KeySkills/KeySkills";
+export { default as Navbar } from "../Components/Navbar/Navbar";
+export { default as PersonalInfoComponent } from "../Components/PersonalInfo/PersonalInfo";
+export { default as PreviewComponent } from "../Components/Preview/Preview";
+export { default as SelectComponent } from "../Components/Select/Select";
+export { default as TemplateEducationComponent } from "../Components/TemplateEducation/TemplateEducation";
+export { default as TemplateKeySkillComponent } from "../Components/TemplateKeySkill/TemplateKeySkill";
+export { default as TemplateOneExperienceComponent } from "../Components/TemplateOneExperience/TemplateOneExperience";
+export { default as WorkExperienceComponent } from "../Components/WorkExperience/WorkExperience";
