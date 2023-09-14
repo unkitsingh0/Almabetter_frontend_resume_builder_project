@@ -8,7 +8,7 @@ Your Resume, Your Way:
 Are you a job seeker, eager to make a strong impression on potential employers? Perhaps you're a student, charting the course of your academic and professional journey. Or maybe you're a seasoned professional, keen on updating your resume to reflect your latest achievements.
 No matter where you are in your career, Resume-Builder is here to empower you with the tools and templates you need to put your best foot forward.
 
-Checkout web-app demo here - [Resume-Builder](app link)
+Checkout web-app demo here - [Resume-Builder](https://6503070f989e4d63a3f2f84f--statuesque-griffin-ba0063.netlify.app/)
 
 ## Table of Contents
 
@@ -156,4 +156,4 @@ These libraries and packages have played an integral role in the development of 
 
 ---
 
-You're most welcome to Resume-Builder! Should you have any inquiries or require additional support, please don't hesitate to get in touch with us or raise an issue within the repository. We're here to ensure your movie booking experience is nothing short of delightful! Enjoy your cinematic journey!
+Welcome to Resume-Builder! If you have questions or need help, don't hesitate to contact us. Your career journey starts here, and we're excited to assist you. Enjoy creating your standout resume!
