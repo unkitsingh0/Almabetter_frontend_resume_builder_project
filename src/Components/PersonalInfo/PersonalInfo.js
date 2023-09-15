@@ -15,6 +15,7 @@ import MuiAlert from "@mui/material/Alert";
 import { addPersonalInfo } from "../../Redux/Actions/actions";
 import "./PersonalInfo.css";
 
+// For displaying toast when user do not select profile image
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
@@ -44,17 +45,15 @@ const PersonalInfo = (props) => {
 
   //Block the popup notification when no profile image selected
   const [imgSnackbar, setImgSnackbar] = useState(false);
-  // eslint-disable-next-line
-  const [vertical, setVertical] = useState("bottom");
-  // eslint-disable-next-line
-  const [horizontal, setHorizontal] = useState("centre");
 
+  // useFrom hook for form data and error handeling
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
+  // Setting profile image
   const [img, setImg] = useState(
     props.personalInfo.profileImg.length ? props.personalInfo.profileImg : ""
   );
@@ -78,7 +77,7 @@ const PersonalInfo = (props) => {
       setTimeout(() => {
         setLoading(false);
         props.setTab(props.tab + 1);
-      }, 1000);
+      }, 1);
     } else {
       setImgSnackbar(true);
     }
@@ -121,7 +120,6 @@ const PersonalInfo = (props) => {
   // Function to save the cropped image.
   const saveImage = () => {
     setSotreImage([{ img }]);
-    // props.onSetProfileImage(img);
     setOpen(false);
   };
 
@@ -155,6 +153,7 @@ const PersonalInfo = (props) => {
     };
   }, []);
 
+  // Render the component's JSX structure.
   return (
     <Paper className="personal-info-paper" elevation={3}>
       <Avatar
@@ -364,6 +363,7 @@ const PersonalInfo = (props) => {
         autoHideDuration={3000}
         onClose={handleCloseSnackbar}
       >
+        {/* Popu notification alret message  */}
         <Alert
           onClose={handleCloseSnackbar}
           severity="error"

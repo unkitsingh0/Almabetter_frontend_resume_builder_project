@@ -3,6 +3,7 @@ import React from "react";
 import "./BackAndNextBtn.css";
 
 const BackAndNextBtn = (props) => {
+  // Render the component's JSX structure.
   return (
     <div className="back-next-btn-cont">
       {props.tab === 0 ? null : (

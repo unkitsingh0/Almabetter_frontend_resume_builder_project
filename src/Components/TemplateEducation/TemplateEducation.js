@@ -3,6 +3,7 @@ import "./TemplateEducation.css";
 
 // Define a functional component named TemplateEducation Component that accepts props as its parameter.
 const TemplateEducation = (props) => {
+  // Render the component's JSX structure.
   return (
     // Render the education details in a styled format.
     <h3 className="template-education-details">

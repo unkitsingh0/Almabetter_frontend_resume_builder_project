@@ -15,7 +15,7 @@ import "./Styles/DetailsFilling.css";
 const DetailsFilling = (props) => {
   // State to manage active tab in datails filling page
   const [tab, setTab] = useState(0);
-
+  // Render the component's JSX structure.
   return (
     <div className="details-filling">
       <Navbar active={""} />

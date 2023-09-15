@@ -3,6 +3,7 @@ import "./TemplateHeading.css";
 
 // TemplateHeading component displays a heading with a colored line underneath.
 const TemplateHeading = (props) => {
+  // Render the component's JSX structure.
   return (
     <div>
       <h2

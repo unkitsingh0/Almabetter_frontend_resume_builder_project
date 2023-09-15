@@ -179,6 +179,7 @@ const Preview = (props) => {
       };
     }
   }, [redirectCounter, redirectAlert]);
+  // Render the component's JSX structure.
   return (
     <Container
       sx={{

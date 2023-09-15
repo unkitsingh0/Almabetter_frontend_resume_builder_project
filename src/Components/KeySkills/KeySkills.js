@@ -41,7 +41,7 @@ function KeySkills(props) {
     setTimeout(() => {
       setLoading(false);
       props.setTab(props.tab + 1);
-    }, 1000);
+    }, 1);
   };
 
   // Handle the back button click event.

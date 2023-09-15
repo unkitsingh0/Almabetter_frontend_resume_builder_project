@@ -96,7 +96,7 @@ const WorkExperience = (props) => {
     setTimeout(() => {
       setLoading(false);
       props.setTab(props.tab + 1);
-    }, 1000);
+    }, 1);
   };
 
   // Add a new, empty experience to the state when the "Add New" button is clicked.
@@ -132,6 +132,7 @@ const WorkExperience = (props) => {
     props.setAllExperience(newExperiences);
   };
 
+  // Render the component's JSX structure.
   return (
     <Paper className="work-experience-paper" elevation={3}>
       <h2 className="work-experience-heading">Work Experience</h2>
@@ -243,9 +244,9 @@ const WorkExperience = (props) => {
                             : false
                         }
                       >
-                        {years.map((year, index) => {
+                        {years.map((year) => {
                           return (
-                            <MenuItem key={index} value={year}>
+                            <MenuItem key={year} value={year}>
                               {year}
                             </MenuItem>
                           );

@@ -4,6 +4,7 @@ import "./TemplateOneExperience.css";
 
 // Define a functional component named TemplateOneExperience Component that accepts props as its parameter.
 const TemplateOneExperience = (props) => {
+  // Render the component's JSX structure.
   return (
     // Render a container element with a specific class name.
     <Container className="template-one-experience-comp">

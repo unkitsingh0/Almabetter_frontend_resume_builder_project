@@ -3,6 +3,7 @@ import "./TemplateHeader.css";
 
 // TemplateHeader component displays user information and profile image.
 const TemplateHeader = (props) => {
+  // Render the component's JSX structure.
   return (
     <div style={{ backgroundColor: props.bgColor }}>
       <div className="template-header">

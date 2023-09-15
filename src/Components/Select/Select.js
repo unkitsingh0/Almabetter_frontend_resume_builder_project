@@ -4,6 +4,7 @@ import "./Select.css";
 
 // Define a functional component named Select Component that accepts props as its parameter.
 const Select = (props) => {
+  // Render the component's JSX structure.
   return (
     // Render a div with the class name "select-component."
     <div className="select-component">

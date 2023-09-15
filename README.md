@@ -75,7 +75,7 @@ Before running the project, make sure you have the following prerequisites insta
 1. Clone the repository:
 
    ```bash
-   git clone github link
+   git clone https://github.com/unkitsingh0/Almabetter_frontend_resume_builder_project
     cd your-project
     npm install
    ```

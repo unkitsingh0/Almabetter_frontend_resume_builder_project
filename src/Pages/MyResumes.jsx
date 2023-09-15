@@ -121,6 +121,7 @@ const MyResumes = (props) => {
     navigate("/template/fill-details");
   };
 
+  // Render the component's JSX structure.
   return (
     <>
       {/* Setting the navbar active link to identify on which tab/page you are at */}

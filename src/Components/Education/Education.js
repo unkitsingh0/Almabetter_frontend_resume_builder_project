@@ -52,6 +52,7 @@ const years = [
 // EducationComponent represents a form for entering education details.
 const Education = (props) => {
   const [loading, setLoading] = useState(false);
+  // useForm hook to manage forms data and erros
   const {
     register,
     handleSubmit,
@@ -72,9 +73,9 @@ const Education = (props) => {
     setTimeout(() => {
       setLoading(false);
       props.setTab(props.tab + 1);
-    }, 1000);
+    }, 1);
   };
-
+  // Render the component's JSX structure.
   return (
     <Paper className="education-paper" elevation={3}>
       <h2 className="education-heading">Education Details</h2>

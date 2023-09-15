@@ -8,6 +8,7 @@ import aboutResumeImg from "../Utils/images/aboutResume.png";
 
 // This component represents the "About Us" page of your website.
 export default function AboutUs() {
+  // Render the component's JSX structure.
   return (
     <>
       <Navbar /> {/* Include the Navbar component */}

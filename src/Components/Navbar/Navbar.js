@@ -67,6 +67,7 @@ function Navbar() {
     </Box>
   );
 
+  // Render the component's JSX structure.
   return (
     <>
       <Box sx={{ display: "flex" }}>

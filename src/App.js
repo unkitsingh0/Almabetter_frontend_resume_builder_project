@@ -7,30 +7,32 @@ import MyResumes from "./Pages/MyResumes";
 
 const App = () => {
   return (
-    <HashRouter>
-      {/* Routes */}
-      <Routes>
-        {/* Home Page  */}
-        <Route exact path="/" element={<Home />} />
+    <div className="App" data-testid="appDiv">
+      <HashRouter>
+        {/* Routes */}
+        <Routes>
+          {/* Home Page  */}
+          <Route exact path="/" element={<Home />} />
 
-        {/* Details Filling Page */}
-        <Route
-          exact
-          path="/template/fill-details"
-          element={
-            <CheckSelectedId>
-              <DetailsFilling />
-            </CheckSelectedId>
-          }
-        />
+          {/* Details Filling Page */}
+          <Route
+            exact
+            path="/template/fill-details"
+            element={
+              <CheckSelectedId>
+                <DetailsFilling />
+              </CheckSelectedId>
+            }
+          />
 
-        {/* My Resumes Page */}
-        <Route exact path="/my/resumes" element={<MyResumes />} />
+          {/* My Resumes Page */}
+          <Route exact path="/my/resumes" element={<MyResumes />} />
 
-        {/* About Us Page */}
-        <Route exact path="/about-us" element={<AboutUs />} />
-      </Routes>
-    </HashRouter>
+          {/* About Us Page */}
+          <Route exact path="/about-us" element={<AboutUs />} />
+        </Routes>
+      </HashRouter>
+    </div>
   );
 };
 

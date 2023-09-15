@@ -5,6 +5,7 @@ import { inputChecks } from "../../Utils/inputChecks";
 
 //This input Component is a reusable component for rendering input fields with titles and validation.
 const Input = (props) => {
+  // Render the component's JSX structure.
   return (
     <div className="input-component">
       <p className="input-title">{props.title}</p>
