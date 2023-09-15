@@ -8,7 +8,7 @@ Your Resume, Your Way:
 Are you a job seeker, eager to make a strong impression on potential employers? Perhaps you're a student, charting the course of your academic and professional journey. Or maybe you're a seasoned professional, keen on updating your resume to reflect your latest achievements.
 No matter where you are in your career, Resume-Builder is here to empower you with the tools and templates you need to put your best foot forward.
 
-Checkout web-app demo here - [Resume-Builder](https://6503070f989e4d63a3f2f84f--statuesque-griffin-ba0063.netlify.app/)
+Checkout web-app demo here - [Resume-Builder](https://6504273a4cfee174d73c1041--splendid-crumble-47ffec.netlify.app/)
 
 ## Table of Contents
 
